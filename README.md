@@ -1,7 +1,3 @@
-# Bldea-IoT-Board
-
-=======
-
 # Node MCU reference module
 
 
