@@ -1,4 +1,4 @@
-# SST-IoT-Board
+# Node MCU reference module
 
   
 ### Blynk Account Setup Guide
