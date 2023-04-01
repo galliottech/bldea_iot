@@ -1,0 +1,19 @@
+Step 1 - sudo apt-get update
+Step 2 - sudo apt-get install build-essential cmake pkg-config libjpeg-dev libtiff5-dev libjasper-dev libpng-dev libavcodec-dev libavformat-dev libswscale-dev libv4l-dev libxvidcore-dev libx264-dev libfontconfig1-dev libcairo2-dev libgdk-pixbuf2.0-dev libpango1.0-dev libgtk2.0-dev libgtk-3-dev libatlas-base-dev gfortran libhdf5-dev libhdf5-serial-dev libhdf5-103 python3-pyqt5 python3-dev -y
+Step 3 - pip install opencv-python==4.5.3.56
+Step 4 - sudo apt-get install python-opencv
+
+Test if Installed
+python3
+
+import cv2
+cv2.__version__
+
+Facing Errors follow the below Step
+
+Step 1 - pip install --upgrade pip setuptools wheel
+Step 2 - sudo apt-get install python-opencv
+Step 3 - pip install -U numpy
+Step 4 - LD_PRELOAD=/usr/lib/arm-linux-gnueabihf/libatomic.so.1 python3
+
+Run Test again
